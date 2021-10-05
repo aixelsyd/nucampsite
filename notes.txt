@@ -1,0 +1,99 @@
+git and version control are important
+
+its easier to add feautres then to remove them
+ use an external style sheet
+
+@media - take over css rules specified by a factor such as screen width) week 1 Responsive Web Design
+
+Grid-
+ -must use container, row, column classes
+ -all content goes inside the coluj divs only
+ -12 potential columns in each row
+ -specify how muany colums to span using-<number>
+ col-6 will span 6(half) ofr the colums
+ -if you leave the number out bootstrap auto-layout will let that column take up whatever space is available
+ -if you have multiple columns bootstramp makes them even
+
+
+ breakpoints - broken down in sizes, XS is standard
+<div class=col col-md-6">2</div>
+
+order - order-sm-last
+class="col-3 order-smal last"
+
+offset - force a column to move to the right specified by number of colums to move
+class ="col-4 col-sm offset-1" 
+
+jumbotron - 
+class="jumbotron"
+
+list-unstyled - removes default list styles
+class="list-unstyled"
+
+alignment in bootstrap more online
+
+**WEEK2
+
+Week 2 Overview
+Color and Spacing Utility Classes
+Navigation 
+Overview: Navigation
+Exercise: Navbar and Breadcrumbs
+Icon Fonts, Buttons, and Forms
+Exercise: Icon Fonts
+Exercise: Buttons
+Exercise: Forms
+Tables and Cards
+Overview: Tables and Cards
+Exercise: Tables and Cards
+Images and Media
+Overview: Images and Media
+Exercise: Images and Media
+
+
+breadcrumbs
+Location: static, show where the page is licated ib the website hierarchy
+
+attribute- give informatiuon that categoirzes the current page                                     attributes chosen by the user.
+
+Path - shows teps taken to get to currentpage
+
+
+dos and donts
+
+be consistent
+logo takes you to homepage
+
+dont use vague terms
+dont clutter
+
+
+
+Icon fonts
+ font awesome library is great for icons
+ the icon properties can br changed in css
+
+
+images
+    image fluid class does this. it makes img responsive to the width of the screen
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <img class="img-fluid img-thumbnail"> Thumbnail give the image a border
+
+
+    media object class- use flexboxstyle css, keeps the text and img together
+
+    <div class="media">
+        <img class="img-fluid img-thumbnail src="../img/picture.jpg" />
+        <div class="media-body">
+        blah blaah blah
+        </div>
+    </div>
+
+
+    form-control lerarn thi
