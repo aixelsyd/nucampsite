@@ -97,3 +97,12 @@ images
 
 
     form-control lerarn thi
+
+    week3
+
+    Tabs
+    accordians
+    tool tips(when you hoover)
+    log in model
+    carrousel(image cycling and controls)
+    
