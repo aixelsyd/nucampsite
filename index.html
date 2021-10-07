@@ -16,17 +16,16 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-4 align-self-center">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <img src="img/logo.png" class="img-fluid" />
                 </div>
                 <div class="col">
                     <h1>NuCamp</h1>
                     <h2>A better way to camp.</h2>
                 </div>
-                <div class="col">
-                    <div class="col-md-4 col-xl-2 mt-4"></div>
-                        <a class="btn btn-lg btn-info" href="#reserveForm" role="button">Reserve Campsite</a>
-                    </div>
+                    <div class="col-md-4 col-xl-2 mt-4">
+                        <a href="#reserveForm" role="button" class="btn btn-lg btn-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Or call us at <br /><strong>1-206-555-1234</strong>">Reserve Campsite</a>
+                    </div> <!-- why isnt this working properly data-html="true" should make it work right but it isnt -->
                 </div>
             </div>
         </div>
@@ -168,6 +167,13 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+            $(functin () {
+                $('[data-toggle="tooltip"]').tooltip()
+
+            })
+    </script>
 
 </body>
 
