@@ -140,3 +140,73 @@ images
 
 
         modals  are pop up prompts
+
+        <div style="
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 258.96px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, Helvetica, Arial, sans-serif;
+  ">
+  <div style="padding: 20px;">
+  <a id="embedded-checkout-modal-checkout-button" target="_blank" data-url="https://checkout.square.site/merchant/MLD3W1R0WCEK7/checkout/3FKAVGZ75BEDRM5DTE5QHMZD?src=embd" href="https://checkout.square.site/merchant/MLD3W1R0WCEK7/checkout/3FKAVGZ75BEDRM5DTE5QHMZD?src=embed" style="
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #000000;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    
+  ">Donate</a>
+  </div>
+</div>
+
+Data Types:
+    number --common 4
+    string
+    boolean
+    undefined --^most common 4
+    null
+    object
+    symbol
+    BigInt
+
+    declare assign initialize
+    -Declare the variable before you use it
+        var/let/const varName
+    -Assign the variable with a value
+        let houseType = "straw"
+    -initialize by calling the houseType
+        houseType
+
+        you can re-declare var but not let or const
+
+
+
+JS Grammar
+    case sensitive, Be consistent with your quotes, always semicolon at the end
+    naming variables 
+        proper terms for the various cases
+        camelCase
+        snake-case
+        PascalCase
+        SCREAMING_SNAKE_CASE
+
+        literal
+
+Data-slide next/back buttons
+Data-slide-to-0 or data-slide-to-1 etc. uses index to click the pane
+
+
+Template literals $()
+
+<a class="profile-link" v-if="!loggedIn">show login page<a />
