@@ -97,3 +97,116 @@ images
 
 
     form-control lerarn thi
+
+    week3
+
+    Tabs
+    accordians
+    tool tips(when you hoover)
+    log in model
+    carrousel(image cycling and controls)
+    
+
+
+            <div class="row row-content">
+            <div class="col">
+                <h3>Community Partners</h3>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link active" href="#bootstrap" role="tab" data-toggle="tab">Bootstrap Outfitters</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#git" role="tab" data-toggle="tab">Git Out Expeditions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mongo" role="tab" data-toggle="tab">Mongo Fly Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#node" role="tab" data-toggle="tab">Node Outdoor Apparel</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade show active" id="bootstrap">
+                        <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
+                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="git">
+                        <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
+                        <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="mongo">
+                        <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
+                        <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="node">
+                        <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
+                        <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+
+        modals  are pop up prompts
+
+        <div style="
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 258.96px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, Helvetica, Arial, sans-serif;
+  ">
+  <div style="padding: 20px;">
+  <a id="embedded-checkout-modal-checkout-button" target="_blank" data-url="https://checkout.square.site/merchant/MLD3W1R0WCEK7/checkout/3FKAVGZ75BEDRM5DTE5QHMZD?src=embd" href="https://checkout.square.site/merchant/MLD3W1R0WCEK7/checkout/3FKAVGZ75BEDRM5DTE5QHMZD?src=embed" style="
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #000000;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    
+  ">Donate</a>
+  </div>
+</div>
+
+Data Types:
+    number --common 4
+    string
+    boolean
+    undefined --^most common 4
+    null
+    object
+    symbol
+    BigInt
+
+    declare assign initialize
+    -Declare the variable before you use it
+        var/let/const varName
+    -Assign the variable with a value
+        let houseType = "straw"
+    -initialize by calling the houseType
+        houseType
+
+        you can re-declare var but not let or const
+
+
+
+JS Grammar
+    case sensitive, Be consistent with your quotes, always semicolon at the end
+    naming variables 
+        proper terms for the various cases
+        camelCase
+        snake-case
+        PascalCase
+        SCREAMING_SNAKE_CASE
+
+        literal
+
+Data-slide next/back buttons
+Data-slide-to-0 or data-slide-to-1 etc. uses index to click the pane
+
+
+Template literals $()
+
+<a class="profile-link" v-if="!loggedIn">show login page<a />
