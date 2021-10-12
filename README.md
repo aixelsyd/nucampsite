@@ -1,2 +1,0 @@
-# nucampsite
-Practice website
