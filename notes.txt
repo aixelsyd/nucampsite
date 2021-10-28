@@ -210,3 +210,7 @@ Data-slide-to-0 or data-slide-to-1 etc. uses index to click the pane
 Template literals $()
 
 <a class="profile-link" v-if="!loggedIn">show login page<a />
+
+
+
+when using document.queryselector or the various document.options 
